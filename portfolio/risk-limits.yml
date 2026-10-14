@@ -1,0 +1,29 @@
+# Hard gates for Phase 3 orders. Edit before enabling live trading.
+# Shariah notes are NOT a deny list here.
+
+phase_3_enabled_by_default: false
+
+approve_phrase: approve order
+
+universe:
+  # Empty list means any symbol is allowed by risk policy.
+  # Add tickers like US.AAPL to restrict the tradeable set.
+  allowed_symbols: []
+
+orders:
+  max_notional_usd: 200
+  max_open_positions: 10
+  allow_market_orders: false
+  require_limit_price: true
+  require_confirmed_quantity: true
+
+awareness:
+  # Product simplicity defaults, not Shariah auto-blocks on equities.
+  allow_options: false
+  allow_futures: false
+  allow_shorting: false
+  allow_margin: false
+
+notes: >
+  Raise max_notional_usd only after you are comfortable with Phase 3.
+  Prefer paper or tiny live sizes first.
