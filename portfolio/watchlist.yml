@@ -1,0 +1,14 @@
+# Personal watchlist. Edit freely.
+# shariah_status is informational only (notes_only mode).
+
+items:
+  - symbol: US.AAPL
+    thesis_one_liner: Example consumer tech name for learning quotes and briefs.
+    trigger_levels: []
+    shariah_status: unclear
+    last_noted: null
+  - symbol: US.SPY
+    thesis_one_liner: Example broad US equity ETF for learning diversification ideas.
+    trigger_levels: []
+    shariah_status: unclear
+    last_noted: null
