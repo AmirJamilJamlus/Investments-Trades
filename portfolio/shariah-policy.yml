@@ -1,0 +1,55 @@
+# Personal Shariah checklist for NOTES ONLY.
+# This is not a fatwa and not a certified Shariah board opinion.
+# Edit freely after consulting a scholar you trust.
+
+mode: notes_only
+
+disclaimer: >
+  Labels help the user notice possible issues. They do not block research,
+  watchlist adds, proposals, or orders. When unsure, use unclear or needs_scholar.
+
+methodology_note: >
+  Starter labels are inspired by commonly discussed AAOIFI-style equity screens.
+  Other scholars and index providers use different cutoffs or denominators.
+  Record your chosen approach below.
+
+label_method: aaoifi_style_equity_notes_v1
+
+activity_flags:
+  - conventional_interest_banking_core
+  - conventional_insurance_core
+  - alcohol
+  - pork_related
+  - gambling
+  - adult_entertainment
+  - tobacco
+  # Add or remove items to match your scholar's guidance.
+
+ratio_notes:
+  # Approximate learner screens for labeling only.
+  interest_bearing_debt_vs_market_cap_max: 0.30
+  interest_bearing_cash_and_investments_vs_market_cap_max: 0.30
+  non_permissible_income_vs_total_income_max: 0.05
+  denominator: market_cap
+  missing_data_label: unclear
+
+etf_and_funds:
+  unknown_holdings_label: unclear
+  prefer_shariah_labelled: true
+
+awareness_flags:
+  - margin_trading
+  - short_selling
+  - options_and_futures
+  - broker_cash_may_earn_interest
+
+purification:
+  remind_when_mixed_income_possible: true
+  log_file: shariah/purification-log.md
+  do_not_invent_precision_without_filings: true
+
+labels:
+  - likely_ok
+  - likely_concern
+  - unclear
+  - needs_scholar
